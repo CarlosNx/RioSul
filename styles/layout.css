@@ -60,10 +60,10 @@ q:after{content:' „'; font-size:26px; line-height:0;}
 
 div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 
-.row1, .row1 a{color:#C0BAB6; background-color:#000;} /* seta a cor do topo do site*/
+.row1, .row1 a{color:#C0BAB6; background-color:#c0c0c0;} /* seta a cor do topo do site*/
 .row2{color:#979797; background-color:#000;} /* seta a cor do corpo do site*/
 .row2 a{color:#FF9900; background-color:#000;}
-.row3, .row3 a{color:#919191; background-color:#232323;} /* seta a cor do rodapé do site*/
+.row3, .row3 a{color:#919191; background-color:#000;} /* seta a cor do rodapé do site*/
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
@@ -111,12 +111,12 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #header form input{display:block; float:left; width:200px; margin:0; padding:5px; color:#C0BAB6; background-color:#232323; border:1px solid #666666;}
 #header form #sf_submit{display:block; float:right; width:70px; font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#FF9900; border:none; cursor:pointer;}
 
-#header nav{display:block; width:100%; margin:0; padding:10px 0; color:#fff; background-color:#232323; clear:both;} /* cor da barra*/
+#header nav{display:block; width:100%; margin:0; padding:10px 0; color:#fff; background-color:#000; clear:both;} /* cor da barra*/
 #header nav ul{padding:0 20px;}
 #header nav li{display:inline; margin-right:10px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
-#header nav li a{color:#fff; background-color:#232323;} /* cor da letra do menu*/
-#header nav li a:hover{color:#FF9900; background-color:#232323;} /* efeito da letra*/
+#header nav li a{color:#fff; background-color:#000;} /* cor da letra do menu*/
+#header nav li a:hover{color:#FF9900; background-color:#000;} /* efeito da letra*/
 
 /*----------------------------------------------Content Area-------------------------------------*/
 
@@ -162,10 +162,11 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #footer p{margin:0; padding:0}
 
 #rodape {
-	color: white;
-	font-size: 14px;
+	color: black;
+	font-size: 12px;
 	font-weight: 500;
 }
 #rodape{
-    background-color: #232323;
+    background-color: #c0c0c0;
 }
+
