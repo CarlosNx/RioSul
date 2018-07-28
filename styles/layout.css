@@ -1,7 +1,7 @@
 
 
 html{overflow-y:scroll;}
-body{margin:0; padding:20; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#919191; background-color:#232323;}
+body{margin:0; overflow-x: hidden; padding:20; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#919191; background-color:#232323;}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
@@ -100,20 +100,20 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 /*----------------------------------------------Header-------------------------------------*/
 
-#header{padding:20px 0;}
+#header{padding:10px 0;}
 
 #header #hgroup{float:left; margin: 0 20px 0;}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
 #header #hgroup h1{font-size:36px;}
 #header #hgroup h2{font-size:13px;}
 
-#header form{display:block; width:960px; float:; margin:20px 0; padding:0;}
+#header form{display:block; width:960px; float:; margin:1px 0; padding:0;}
 #header form input{display:block; float:left; width:200px; margin:0; padding:5px; color:#C0BAB6; background-color:#232323; border:1px solid #666666;}
 #header form #sf_submit{display:block; float:right; width:70px; font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#FF9900; border:none; cursor:pointer;}
 
 #header nav{display:block; width:100%; margin:0; padding:10px 0; color:#fff; background-color:#000; clear:both;} /* cor da barra*/
-#header nav ul{padding:0 20px;}
-#header nav li{display:inline; margin-right:10px; text-transform:uppercase;}
+#header nav ul{padding:0 0px;}
+#header nav li{display:inline; margin-right:0px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
 #header nav li a{color:#fff; background-color:#000;} /* cor da letra do menu*/
 #header nav li a:hover{color:#FF9900; background-color:#000;} /* efeito da letra*/
@@ -169,5 +169,7 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 }
 #rodape{
     background-color: #c0c0c0;
+}
+@media screen and (min-width: 768px) {
 }
 
