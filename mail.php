@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+
 <?php header("Content-type: text/html; charset=utf-8");
 
 $GetParam = filter_input_array(INPUT_POST,FILTER_DEFAULT);
@@ -18,7 +25,7 @@ $corpo = 'Orçamento - iCod | Developers
           Nome: ' .$nome.'
           tel: ' .$tel.'
           E-mail: ' .$email.'
-          Negócio: ' .$msg. '
+          Assunto: ' .$msg. '
           Mensagem: ' .$mensagem.'';
 
 if(mail("leonardocarlos_@live.com", "Atendimento",$corpo)){
@@ -30,3 +37,6 @@ if(mail("leonardocarlos_@live.com", "Atendimento",$corpo)){
     echo"<script>alert('Erro ao enviar, tente novamente');</script>";
 }
 ?>
+
+</body>
+</html>
